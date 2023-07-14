@@ -1,0 +1,5 @@
+efficientunet-pytorch
+matplotlib
+nibabel
+monai
+tensorboardX
