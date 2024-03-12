@@ -8,7 +8,9 @@ Welcome👋! This repository provides the official implementation of our paper *
 ## 🔍 Details
 > Due to the cross-domain distribution shift aroused from diverse medical imaging systems, many deep learning segmentation methods fail to perform well on unseen data, which limits their real-world applicability. Recent works have shown the benefits of extracting domain-invariant representations on domain generalization. However, the interpretability of domain-invariant features remains a great challenge. To address this problem, we propose an interpretable Bayesian framework (BayeSeg) through Bayesian modeling of image and label statistics to enhance model generalizability for medical image segmentation. Specifically, we first decompose an image into a spatial-correlated variable and a spatial-variant variable, assigning hierarchical Bayesian priors to explicitly force them to model the domain-stable shape and domain-specific appearance information respectively. Then, we model the segmentation as a locally smooth variable only related to the shape. Finally, we develop a variational Bayesian framework to infer the posterior distributions of these explainable variables. The framework is implemented with neural networks, and thus is referred to as deep Bayesian segmentation. Quantitative and qualitative experimental results on prostate segmentation and cardiac segmentation tasks have shown the effectiveness of our proposed method. Moreover, we investigated the interpretability of BayeSeg by explaining the posteriors and analyzed certain factors that affect the generalization ability through further ablation studies.
 
-
+## 📰 News
+* ✨ We released a [tutorial for BayeSeg](https://www.bilibili.com/video/BV1it421p7qE) on Bilibili. Thanks to Ruoxuan and Menghan for their work!
+* 🎉 BayeSeg won [Elsevier MICCAI MedIA Best Paper Award](http://www.miccai.org/about-miccai/awards/medical-image-analysis-best-paper-award/)! Congratulations!
 
 ## 📦 Get started
 
@@ -45,9 +47,9 @@ The trained model can be found [here](https://drive.google.com/file/d/1PLh50RXBj
 ## 📒 To do
 - [x] Prostate code release
 - [x] Prostate model release
-- [ ] Cardiac code release
-- [ ] Cardiac model release
-- [ ] Tutorial
+- [x] Cardiac code release
+- [x] Cardiac model release
+- [x] Tutorial
 
 
 ## 🙋‍♀️ Feedback and Contact
