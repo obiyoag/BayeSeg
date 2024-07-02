@@ -10,7 +10,7 @@ Welcome👋! This repository provides the official implementation of our paper *
 
 ## 📰 News
 * ✨ We released a [tutorial for BayeSeg](https://www.bilibili.com/video/BV1it421p7qE) on Bilibili. Thanks to Ruoxuan and Menghan for their work!
-* 🎉 BayeSeg won [Elsevier MICCAI MedIA Best Paper Award](http://www.miccai.org/about-miccai/awards/medical-image-analysis-best-paper-award/)! Congratulations!
+* 🎉 BayeSeg won [Elsevier MICCAI MedIA Best Paper Award](https://miccai.org/index.php/about-miccai/awards/medical-image-analysis-best-paper-award/)! Congratulations!
 
 ## 📦 Get started
 
