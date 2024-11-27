@@ -10,6 +10,7 @@ def add_experiment_args(parser: ArgumentParser) -> None:
     parser.add_argument("--lr_drop", default=1000, type=int)
     parser.add_argument("--num_classes", default=2, type=int)
     parser.add_argument("--checkpoint_dir", default=None, type=str)
+    parser.add_argument("--dataset", default="Prostate", type=str)
 
     # Model parameters
     parser.add_argument("--model", default="BayeSeg", required=False)
